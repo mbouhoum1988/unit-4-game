@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background: #B0E0E6;
+    width: 75%;
+    height: 740px;
+    border: 2px #000 solid; 
+    margin: 8px 10px;
+
+}
+h1{
+    background: #FF7D00;
+    margin:8px 10px;
+    padding: 15px;
+    font-size: 20px;
+    width: 180px;
+}
+.Image{
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+}
+.Image img{
+    padding: 0;
+    width: 25px;
+    height: 25px;
+}
+.main{
+   background:  #FAF0E6;
+   color: #00CC37;
+   margin: 8px 10px;
+   padding: 10px;
+   font-size: 16px;
+   width: 75%;
+   height: 300px;
+}
+.main p{
+    padding: 8px 0; 
+}
+button{
+    margin: 8px 10px;
+    padding: 15px;
+}
+.score{
+    position: relative;
+}
+#computerPick{
+ background: green;
+ width: 100px;
+ height: 70px;
+ margin: 8px 10px;
+ padding: 15px;
+}
+#result{
+    position: absolute;
+    top:-10px;
+    left:110px;
+    background:#00BFFF;
+    width: 80px;
+    height: 70px;
+    padding: 5px 5px;
+    margin: 10px 5px;
+}
+#total{
+   background: #20B2AA;;
+   color: #fff;
+   width: 150px;
+   margin: 8px 10px;
+   padding: 5px;
+}
+#pick{
+   background: #20B2AA;;
+   color: #fff;
+   width: 150px;
+   height: 70px;
+   margin: 8px 10px;
+   padding: 20px;
+}

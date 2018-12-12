@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+  <div class="container">
+     <h1 >CrystalsCollector!</h1>
+     <div class="main">
+         <p>You will be given a random number at the start of the game.</p>
+         <p>There are four crystals below, By clicking on a crystal you will add a spicific amout of points to your total score.</p>
+         <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+         <p>The value of each crystal is hidden from you until you click on it.</p>
+         <p>Each time when the game starts, the game will change the values of each crystal.</p>
+     </div>
+     <div class="score">
+         <div id="computerPick"></div>
+          <div id="result">
+              <p>Wins: 0 </p>
+              <p>Losses: 0</p>
+          </div>
+     </div>
+     <div></div>
+     
+     <div id="click">
+             <button type="button" class="Image"  id="clickImage1"><img img src="assets/images/img1.jpg"> </button>       
+             <button type="button" class="Image" id="clickImage2"><img img src="assets/images/img2.jpg" > </button>       
+             <button type="button" class="Image" id="clickImage3"><img img src="assets/images/img3.jpg"> </button>       
+             <button type="button" class="Image" id="clickImage4"><img img src="assets/images/img4.jpg"> </button>              
+        </div>
+     <div>
+         <h3 id="total">Your total score is:  </h3>
+     </div>
+     <div id="pick">
+        
+     </div>
+ </div>
+</body>
+</html>
